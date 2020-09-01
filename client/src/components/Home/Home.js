@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Join = () => {
+const Home = () => {
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
 
@@ -17,4 +17,4 @@ const Join = () => {
   )
 }
 
-export default Join;
+export default Home;
